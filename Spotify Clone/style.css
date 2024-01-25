@@ -33,3 +33,20 @@ nav ul li {
   font-weight: bolder;
   font-size: 23px;
 }
+.container {
+  height: 80vh;
+}
+.bottom {
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  height: 105px;
+  background-color: black;
+  justify-content: center;
+}
+#range-cont {
+  width: 80vw;
+}
