@@ -34,7 +34,19 @@ nav ul li {
   font-size: 23px;
 }
 .container {
-  height: 80vh;
+  background-size: 100% 100%;
+  width: 70%;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px 2px black;
+  border-radius: 12px;
+
+  margin: 23px auto;
+  height: 74vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  padding: 15px 25px;
+  background-image: url(./backg.avif);
 }
 .bottom {
   color: white;
@@ -49,4 +61,32 @@ nav ul li {
 }
 #range-cont {
   width: 80vw;
+}
+.icon-cont {
+  padding: 8px 0;
+}
+.icon-cont i {
+  cursor: pointer;
+  padding: 0 3px;
+}
+.song-item-cont {
+  justify-content: space-between;
+  margin: 14px 0px;
+  background: white;
+  display: flex;
+  height: 38px;
+  width: 31%;
+  align-items: center;
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+}
+.song-item-cont img {
+  border-radius: 5px;
+
+  width: 29px;
+  height: 29px;
+}
+.time {
+  margin: 0 6px;
 }
