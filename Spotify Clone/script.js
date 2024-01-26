@@ -58,17 +58,20 @@ const makeAllPlay = () => {
         element.classList.add("fa-circle-play")
     })
 }
-Array.from(document.getElementsByClassName("songListPlay")).forEach((element) => {
+Array.from(document.getElementsByClassName("songPlay")).forEach((element, index) => {
     element.addEventListener("click", (e) => {
 
+        console.log("elenemt", e.target, element, index, songList[index]?.songName)
         makeAllPlay();
-        index = parseInt(e.target.id)
+        // songIndex = parseInt(e.target.id)
 
         e.target.classList.remove("fa-circle-play")
         e.target.classList.add("fa-circle-pause")
-        audioElement.src = `songList/${index}.mp3`;
-        audioElement.currentTime = 0;
+        audioElement.src = `${songList[index]?.filePath}`;
+        console.log('audioElement--', audioElement)
         audioElement.play()
+        audioElement.currentTime = 0;
+
         masterPlay.classList.remove('fa-circle-play');
         masterPlay.classList.add('fa-circle-pause');
     })
