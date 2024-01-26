@@ -59,7 +59,7 @@ nav ul li {
   background-color: black;
   justify-content: center;
 }
-#range-cont {
+#progress {
   width: 80vw;
 }
 .icon-cont {
@@ -69,7 +69,7 @@ nav ul li {
   cursor: pointer;
   padding: 0 3px;
 }
-.song-item-cont {
+.songItem {
   font-weight: bold;
   justify-content: space-between;
   margin: 15px 0px;
@@ -82,7 +82,7 @@ nav ul li {
   padding: 8px;
   border-radius: 8px;
 }
-.song-item-cont img {
+.songItem img {
   border-radius: 5px;
 
   width: 29px;
@@ -105,5 +105,5 @@ nav ul li {
   width: 50px;
   margin-right: 2%;
   opacity: 0;
-  transition: opacity 1s ease-in;
+  transition: opacity 0.4s ease-in;
 }
