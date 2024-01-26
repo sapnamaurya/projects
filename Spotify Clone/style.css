@@ -35,7 +35,7 @@ nav ul li {
 }
 .container {
   background-size: 100% 100%;
-  width: 70%;
+  width: 58%;
   background-repeat: no-repeat;
   box-shadow: 2px 2px 4px 2px black;
   border-radius: 12px;
@@ -46,7 +46,7 @@ nav ul li {
   color: white;
   font-family: "Varela Round", sans-serif;
   padding: 15px 25px;
-  background-image: url(./backg.avif);
+  background-image: url(./final\ bg.jpg);
 }
 .bottom {
   color: white;
@@ -70,12 +70,13 @@ nav ul li {
   padding: 0 3px;
 }
 .song-item-cont {
+  font-weight: bold;
   justify-content: space-between;
-  margin: 14px 0px;
-  background: white;
+  margin: 15px 0px;
+  background: #dfdada;
   display: flex;
   height: 38px;
-  width: 31%;
+  width: 42%;
   align-items: center;
   color: black;
   padding: 8px;
@@ -89,4 +90,20 @@ nav ul li {
 }
 .time {
   margin: 0 6px;
+}
+.gif {
+  top: 40px;
+  position: absolute;
+  left: 10vw;
+  width: 20%;
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  align-items: center;
+}
+.gif img {
+  height: 6vh;
+  width: 50px;
+  margin-right: 2%;
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }
