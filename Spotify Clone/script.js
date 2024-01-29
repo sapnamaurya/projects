@@ -11,12 +11,12 @@ let gif = document.getElementById("gif")
 let songList = [
     { songName: "Tum Bin Jiya Jae", filePath: "songList/tumBin.mp3", time: "", coverPath: "cover/tumbin.webp" },
     { songName: "Hasi Ban Gye", filePath: "songList/hasi.mp3", time: "", coverPath: "cover/hasi.webp" },
-    { songName: "Tere Liye Hum Hai Jiye", filePath: "songList/tereLiye.mp3", time: "", coverPath: "cover/tereliye.webp" },
+    { songName: "Tere Liye Hum Hai ", filePath: "songList/tereLiye.mp3", time: "", coverPath: "cover/tereliye.webp" },
     { songName: "Tu Hi Shab hai", filePath: "songList/tuHiShab.mp3", time: "", coverPath: "cover/shab.jpg" },
     { songName: "Jashn E Bahra ", filePath: "songList/jashnEBhara.mp3", time: "", coverPath: "cover/jashn.jpg" },
-    { songName: "Bepanha Pyaar Hai Aaja", filePath: "songList/bepanah.mp3", time: "", coverPath: "cover/bepanah.jpg" },
+    { songName: "Bepanha Pyaar ", filePath: "songList/bepanah.mp3", time: "", coverPath: "cover/bepanah.jpg" },
     { songName: "Khud Ko", filePath: "songList/khudKo.mp3", time: "", coverPath: "cover/khud.webp" },
-    { songName: "Mera Dil Bhi Kitna Pagal", filePath: "songList/meraDil.mp3", time: "", coverPath: "cover/meraDil.jpg" },
+    { songName: "Mera Dil Bhi Kitna ...", filePath: "songList/meraDil.mp3", time: "", coverPath: "cover/meraDil.jpg" },
     { songName: "Jadu Hai Nasha hai", filePath: "songList/jaduHai.mp3", time: "", coverPath: "cover/jadu.webp" },
 
 ]
@@ -71,7 +71,7 @@ Array.from(document.getElementsByClassName("songPlay")).forEach((element, index)
         console.log('audioElement--', audioElement)
         audioElement.play()
         audioElement.currentTime = 0;
-
+        gif.style.opacity = 1;
         masterPlay.classList.remove('fa-circle-play');
         masterPlay.classList.add('fa-circle-pause');
     })
