@@ -1,10 +1,10 @@
 import React from "react";
-import PlayNow from "../../components/PlayNow";
+import StartGame from "../../components/StartGame";
 
 function Game() {
   return (
     <>
-      <PlayNow />
+      <StartGame />
     </>
   );
 }

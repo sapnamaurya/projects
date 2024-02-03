@@ -1,0 +1,45 @@
+.main-sec {
+  border: 1px solid;
+
+  padding: 51px;
+}
+.score-cont {
+  display: flex;
+}
+.totla-score {
+  width: 150px;
+}
+.totla-score h1 {
+  font-size: 61px;
+  margin: 0 0 0 50px;
+}
+.totla-score p {
+  font-weight: bold;
+  margin: 0;
+  font-size: 27px;
+}
+.number-cont {
+  margin-left: 56%;
+}
+.number-cont button {
+  width: 55px;
+  height: 52px;
+  font-size: 20px;
+  font-weight: bold;
+  background: white;
+  margin: 8px 10px 0 0px;
+}
+.number-cont p {
+  margin-top: 15px;
+  font-size: 27px;
+  font-weight: bold;
+}
+/* .number-cont button:hover {
+  width: 55px;
+  height: 52px;
+  font-size: 20px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  margin: 8px 10px 0 0px;
+} */
