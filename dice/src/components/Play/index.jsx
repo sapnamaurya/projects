@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-
+//import styled from "styled-components";
 function Play() {
   const arrButton = [1, 2, 3, 4, 5, 6];
   const [selectNum, setSelectNum] = useState();
@@ -40,5 +40,6 @@ function Play() {
 export default Play;
 
 // const button = styled.div`
+//   color: red;
 //   background-color: ${(props) => (props.isSelected ? "black" : "white")};
 // `;
